@@ -1,0 +1,10 @@
+  323  git add index.html assets/styles.css
+  324  git status
+  325  git commit -m "added styles.css and index.html"
+  326  git remote add origin https://github.com/Chaos9Theory/git-drill-2.git
+  327  git push origin master
+  328  git add -A
+  329  git commit -m "added the rest of the files"
+  330  git push origin master
+  331  git pull
+  332  history | tail -n 10 > my-commands
